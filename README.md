@@ -35,9 +35,9 @@ Analisis ini menghasilkan beberapa temuan penting yang memberikan pemahaman lebi
 
 ## 🤖 **AI Support Explanation**
 
-Proyek ini menggunakan LLM **IBM Granite** untuk meningkatkan nilai dari analisis data. Saya tidak menggunakan AI untuk pemodelan prediktif, melainkan untuk interpretasi dan klarifikasi hasil analisis.
+Proyek ini menggunakan LLM **IBM Granite** untuk meningkatkan nilai dari analisis data. AI tidak digunakan untuk pemodelan prediktif, melainkan untuk interpretasi dan klarifikasi hasil analisis.
 
-1.  **Interpretasi Hasil Teknis:** Setelah model klasifikasi selesai dievaluasi, lalu mengirimkan laporan metrik evaluasi (`precision`, `recall`, `f1-score`) ke LLM. Saya meminta AI untuk menjelaskan arti dari metrik-metrik ini dalam bahasa yang non-teknis dan mudah dipahami oleh dokter atau manajer rumah sakit.
-2.  **Klarifikasi Kontekstual:** Saya secara spesifik meminta AI untuk menjelaskan **mengapa *recall* sangat penting dalam diagnosis penyakit**. Jawaban dari AI memberikan konteks kritis, menunjukkan bahwa tingginya *recall* berarti model sangat baik dalam menghindari "salah negatif" (pasien sakit yang tidak terdeteksi), yang merupakan hal paling vital dalam bidang kesehatan.
+1.  **Interpretasi Hasil Teknis:** Setelah model klasifikasi selesai dievaluasi, lalu mengirimkan laporan metrik evaluasi (`precision`, `recall`, `f1-score`) ke LLM. AI menjelaskan arti dari metrik-metrik ini dalam bahasa yang non-teknis dan mudah dipahami oleh dokter atau manajer rumah sakit.
+2.  **Klarifikasi Kontekstual:** AI menjelaskan **mengapa *recall* sangat penting dalam diagnosis penyakit**. Jawaban dari AI memberikan konteks kritis, menunjukkan bahwa tingginya *recall* berarti model sangat baik dalam menghindari "salah negatif" (pasien sakit yang tidak terdeteksi), yang merupakan hal paling vital dalam bidang kesehatan.
 
 Dengan cara ini, AI berfungsi sebagai alat bantu intelektual yang mengubah data dan angka teknis menjadi wawasan naratif yang memiliki dampak dan makna di dunia nyata.
